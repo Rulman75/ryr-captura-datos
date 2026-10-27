@@ -1,0 +1,28 @@
+{
+  "name": "ryr-captura-datos",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Sistema PWA de Captura de Inventario para iMin Lark 1 - RYR Importadora (SAP Business One)",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --host"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.10.4",
+    "lucide-react": "^0.468.0",
+    "nodemailer": "^6.9.16",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "dotenv": "^16.4.7",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.0.5"
+  }
+}

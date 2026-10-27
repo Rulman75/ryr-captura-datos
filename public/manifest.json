@@ -1,0 +1,24 @@
+{
+  "name": "Importadora R&R - Captura de Inventario",
+  "short_name": "R&R Inventario",
+  "description": "Toma de inventario con lector láser para iMin Lark 1 y exportación Excel SAP Business One",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f8fafc",
+  "theme_color": "#c01323",
+  "icons": [
+    {
+      "src": "/RYR.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
