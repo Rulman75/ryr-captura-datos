@@ -98,6 +98,9 @@ export default async function handler(req, res) {
             user: smtpUser,
             pass: smtpPass,
           },
+          tls: {
+            rejectUnauthorized: false,
+          },
         });
 
         const fechaStr = new Date(closedAt || Date.now()).toLocaleString('es-CL', {
